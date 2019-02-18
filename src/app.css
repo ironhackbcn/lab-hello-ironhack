@@ -1,0 +1,65 @@
+
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  height: 100vh;
+  background-color:#1F2535;
+  color: white;
+
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+h1{
+  font-size: 5rem;
+  line-height: 4.5rem;
+}
+
+button{
+  padding: 1.5rem;
+  background-color: #fff;
+  color: #1F2535;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  margin: 3rem 0;
+}
+
+.main-text{
+  width: 30vw;
+  margin-left: 5vw;
+}
+
+p{
+  font-size: 1.2rem;
+  width: 60%;
+}
+
+.bottom{
+  background-color: #fff;
+  height: 40vh;
+  color: black;
+  display: flex;
+  margin: 0 auto;
+  padding: 5rem;
+}
+
+.card{
+  width: calc(25vw - 20px);
+  margin: 0 10px;
+}
