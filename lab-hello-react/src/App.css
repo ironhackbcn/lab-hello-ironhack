@@ -1,0 +1,53 @@
+.container {
+  background-color: #282c34;
+}
+
+nav {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  padding: 50px;
+  background-color: #282c34;
+  height: 60vh;
+  color: white;
+}
+
+.main h1{
+  font-size: 5rem;
+  width: 30vw;
+}
+
+.main p{
+  font-size: 1rem;
+  width: 15vw;
+}
+
+.main button {
+  margin-top: 4rem;
+  width: 150px;
+  height: 60px;
+  background-color: white;
+}
+
+
+
+.section-two {
+  width: 96vw;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.card {
+  width: 20%;
+}
+
+.card p {
+  width: 70%
+}
+
