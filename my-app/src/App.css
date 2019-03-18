@@ -1,0 +1,68 @@
+.App {
+  
+}
+.App-header {
+  background-color: #1F2535;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 45% 55%;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-left: 4rem;
+  padding-top: 2rem;
+}
+.App-header-info {
+  display: grid;
+  grid-template-rows: 20% 30% 30%;
+}
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+
+}
+.App-header-info h1{
+  font-size: 3.5em;
+  
+}
+.App-header-info p{
+  margin-top: 50px;
+  padding-right: 180px;
+  font-size: 1em;
+  font-weight: 200;
+}
+.App-header-info div {
+  height: 70px;
+  width: 150px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App-link {
+  color: #1f2535;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.5;
+  font-weight: 500;
+}
+
+.App-header-nav-logo {
+  background-image: url('/images/react-logo.svg');
+  background-repeat: 0/20px repeat;
+  min-height: 100vh;
+  display: grid;
+  justify-items: end;
+  padding-right: 40px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
