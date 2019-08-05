@@ -1,0 +1,102 @@
+
+html, body *{
+  margin: 0;
+  padding: 0;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+  padding: 5%; 
+}
+
+.flex-container article{
+  padding: 5%;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav img{
+  margin: 3% 3% 3% 8%;
+}
+
+.landing{
+  margin: 6% 15% 3% 8%;
+  width: 50%;
+}
+
+.landing p{
+  font-weight: lighter;
+  padding: 0 15% 0 0;
+}
+
+button{
+  background-color: white;
+  color: #282c34;
+  padding: 25px;
+  border-radius: 8px;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+h1{
+  font-size: 6rem;
+}
+
+h3{
+  font-size: 2rem;
+}
+
+article p{
+  color: grey;
+  
+}
+
+#react-logo{
+  position: absolute;
+  right: 5%;
+  top: 20%;
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+#menu{
+  margin-right: 8%;
+}
+
+header p{
+  margin: 3% 0 10% 0;
+}
+
+article p {
+  margin: 5% 0 0 0;
+}
