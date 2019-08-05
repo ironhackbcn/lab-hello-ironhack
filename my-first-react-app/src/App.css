@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500,700&display=swap');
+
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* ---- typography ---- */
+
+body {
+  font-size: 1rem;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/*-------- React styles -------*/
+
+.site-header {
+  background-color: #1F2535;
+  color: #fff;
+  padding: 1.5rem 4.5rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 4.5rem 0;
+}
+
+.site-title {
+  font-size: 3.5rem;
+  width: 40%;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.site-description {
+  width: 30%;
+  font-weight: 300;
+  line-height: 1.4;
+  margin: .5rem 0 3.5rem 0;
+}
+
+.button {
+  display: inline-block;
+  padding: 1rem;
+  background-color: #fff;
+  color: #1F2535;
+  font-weight: 700;
+  border-radius: .25rem;
+  margin: 0 0 3.5rem 0;
+}
+
+.site-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 4.5rem 4.5rem 9rem;
+}
+
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 22%;
+}
+
+.card-image {
+  width: 100px;
+  height: auto;
+  margin: 0 0 0 -.65rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  margin: .5rem 0 .25rem 0;
+}
+
+.card-description {
+  font-size: .875rem;
+  font-weight: 300;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: flex-start;
+  color: #fff;
+  background-color: #1F2535;
+  padding: .5rem 4.5rem;
+}
+
+.footer-credits {
+  padding: 0 .25rem;
+  font-size: .875rem;
+  font-weight: 300;
+}
+
