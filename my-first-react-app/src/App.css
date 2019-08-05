@@ -49,7 +49,13 @@ p {
 .site-header {
   background-color: #1F2535;
   color: #fff;
-  padding: 1.5rem 4.5rem;
+  padding: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .site-header {
+    padding: 1.5rem 4.5rem;
+  }
 }
 
 .navbar {
@@ -60,16 +66,28 @@ p {
 
 .site-title {
   font-size: 3.5rem;
-  width: 40%;
+  width: 100%;
   font-weight: 700;
   line-height: 1;
 }
 
+@media (min-width: 768px) {
+  .site-title {
+    width: 40%;
+  }
+}
+
 .site-description {
-  width: 30%;
+  width: 100%;
   font-weight: 300;
   line-height: 1.4;
   margin: .5rem 0 3.5rem 0;
+}
+
+@media (min-width: 768px) {
+  .site-description {
+    width: 30%;
+  }
 }
 
 .button {
@@ -84,15 +102,29 @@ p {
 
 .site-main {
   display: flex;
+  flex-flow: column nowrap;
   justify-content: space-between;
-  padding: 4.5rem 4.5rem 9rem;
+  padding: 4.5rem 1.5rem 9rem;
+}
+
+@media (min-width: 768px) {
+  .site-main  {
+    flex-flow: row nowrap;
+    padding: 4.5rem 4.5rem 9rem;
+  }
 }
 
 .feature-card {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 22%;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .feature-card {
+    width: 22%;
+  }
 }
 
 .card-image {
@@ -117,7 +149,13 @@ p {
   justify-content: flex-start;
   color: #fff;
   background-color: #1F2535;
-  padding: .5rem 4.5rem;
+  padding: .5rem 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .site-footer {
+    padding: .5rem 4.5rem;
+  }
 }
 
 .footer-credits {
