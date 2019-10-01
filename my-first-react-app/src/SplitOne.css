@@ -1,0 +1,42 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 40px;
+}
+
+h1 {
+  font-size: 60px;
+  color: white;
+}
+
+p {
+  font-size: 20px;
+  color: white;
+}
+
+button {
+  background-color: white;
+  width: 200px;
+  font-size: 16px;
+  height: 80px;
+  border-radius: 5px;
+}
+
+.SplitOne {
+  text-align: center;
+  background-color: #1f2535;
+  height: 750px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 50px;
+  margin-right: 50px;
+}
