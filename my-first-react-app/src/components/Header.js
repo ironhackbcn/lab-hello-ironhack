@@ -1,16 +1,10 @@
 import React from "react";
+import Navigation from "./Navigation.js";
 
 const header = () => {
   return (
     <header className="App-header">
-      <nav class="navbar">
-        <a href="/">
-          <img src="../ironhack-logo.svg" className="App-logo" alt="logo" />
-        </a>
-        <span class="navbar-toggle">
-          <img src="../menu-top.svg" alt="Menu icon" />
-        </span>
-      </nav>
+      <Navigation />
       <div class="hero-content">
         <h1>Say Hello to ReactJS</h1>
         <h4>

@@ -1,38 +1,33 @@
-import React from "react";
+import React, { Component } from "react";
+import Card from "./Card.js";
 
-const cardsContainer = () => {
-  return (
-    <div class="cards-container">
-      <div class="card">
-        <div class="icon">
-          <img src="../icon1.png" alt="" />
-        </div>
-        <h3>Declarative</h3>
-        <p>React makes it painless to create interactive UIs.</p>
+class CardsContainer extends Component {
+  render() {
+    return (
+      <div class="cards-container">
+        <Card
+          icon="../icon1.png"
+          title="Declarative"
+          paragraph="React makes it painless to create interactive UIs."
+        />
+        <Card
+          icon="../icon2.png"
+          title="Components"
+          paragraph="Build encapsulated components that manage their state."
+        />
+        <Card
+          icon="../icon3.png"
+          title="Single-way"
+          paragraph="A set of immutable values are passed to the component's."
+        />
+        <Card
+          icon="../icon4.png"
+          title="JSX"
+          paragraph="Statically typed, designed to run on mode browsers."
+        />
       </div>
-      <div class="card">
-        <div class="icon">
-          <img src="../icon2.png" alt="" />
-        </div>
-        <h3>Components</h3>
-        <p>Build encapsulated components that manage their state.</p>
-      </div>
-      <div class="card">
-        <div class="icon">
-          <img src="../icon3.png" alt="" />
-        </div>
-        <h3>Single-way</h3>
-        <p>A set of immutable values are passed to the component's.</p>
-      </div>
-      <div class="card">
-        <div class="icon">
-          <img src="../icon4.png" alt="" />
-        </div>
-        <h3>JSX</h3>
-        <p>Statically typed, designed to run on mode browsers.</p>
-      </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
-export default cardsContainer;
+export default CardsContainer;
