@@ -1,0 +1,38 @@
+.footer-section{
+    background: white;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    max-width: 25%;
+}
+
+/* card */
+.card {
+    min-height: 100%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: #444;
+    position: relative;
+    top: 0;
+}
+
+.card article {
+    padding: 30px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.card p {
+    font-size: 12px;
+    font-weight: bold;
+    color: #999;
+    letter-spacing: .05em;
+    margin: 2em 0 0 0;
+}  

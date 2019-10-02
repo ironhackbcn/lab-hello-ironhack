@@ -1,0 +1,25 @@
+.body-section{
+    background-image: "../images/menu-top.svg";
+    background-color: #1F2535;
+    color: white;
+    width: 70%;
+    margin-top: 3em;
+    margin: 0 auto;
+    padding: 4em;
+}
+
+h1{
+    font-size: 5em;
+}
+
+p{
+    color: #B4B6BB;
+    font-size: 1.5em;
+}
+
+button{
+    margin-top: 1em;
+    padding: 0.7em;
+    font-size: 2em;
+    border-radius: 10px;
+}
