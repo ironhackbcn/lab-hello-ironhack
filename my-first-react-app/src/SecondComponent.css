@@ -1,0 +1,14 @@
+.SecondComponent{
+    text-align: center;
+    height: 100px;
+    width: 200px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.card{
+   margin-left: 100%;
+}
