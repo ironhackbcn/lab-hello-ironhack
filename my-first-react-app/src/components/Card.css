@@ -1,0 +1,11 @@
+.Card {
+  width: 150px;
+}
+.card-image-wrapper {
+  width: 50%;
+}
+
+.Card > h3,
+.Card > p {
+  padding-left: 7px;
+}
