@@ -3,8 +3,8 @@ import React, { Component } from "react";
 class Navbar extends Component {
   render() {
     return (
-      <Navbar className="App-navbar">
-         {/* <img
+      <div className="App-Navbar">
+         <img
           className="App-logo"
           src={process.env.PUBLIC_URL + "images/ironhack-logo.svg"}
           alt="Ironhack Logo"
@@ -13,10 +13,12 @@ class Navbar extends Component {
           className="App-logo"
           src={process.env.PUBLIC_URL + "images/menu-top.svg"}
           alt="Menu hamburguer Logo"
-        />   */}
-      </Navbar>
+        /> 
+      </div>
     );
   }
 }
 
 export default Navbar;
+
+/*   */

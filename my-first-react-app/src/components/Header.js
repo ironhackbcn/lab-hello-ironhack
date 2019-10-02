@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
-import "../App.css";
+import Title from "./Title";
 
 class Header extends Component {
   render() {
-    return (
-      <header className="App-header">
-        <Navbar></Navbar>
-      </header>
-    );
+    return <div className="App-header">
+      <Navbar></Navbar>
+      <Title t1='Say Hello to ReactJS' t3='You will learn a Frontend framework from scratch, to became a Ninja Developer.'></Title>
+    </div>;
   }
 }
 
 export default Header;
+
