@@ -4,8 +4,12 @@ class Card extends Component {
   render(props) {
     return (
       <div className="App-card">
-        <img className="App-image-card"src={this.props.name} alt={this.props.titleImg}/>
-        <h2 clasName="App-title-card">{this.props.titleCard}</h2>
+        <img
+          className="App-image-card"
+          src={this.props.name}
+          alt={this.props.titleImg}
+        />
+        <h2 className="App-title-card">{this.props.titleCard}</h2>
         <p className="App-comment-card">{this.props.comment}</p>
       </div>
     );
@@ -13,4 +17,3 @@ class Card extends Component {
 }
 
 export default Card;
-

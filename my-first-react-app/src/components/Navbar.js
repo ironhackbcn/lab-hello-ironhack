@@ -4,16 +4,20 @@ class Navbar extends Component {
   render() {
     return (
       <div className="App-Navbar">
-         <img
-          className="App-logo"
-          src={process.env.PUBLIC_URL + "images/ironhack-logo.svg"}
-          alt="Ironhack Logo"
-        />
-        <img
-          className="App-logo"
-          src={process.env.PUBLIC_URL + "images/menu-top.svg"}
-          alt="Menu hamburguer Logo"
-        /> 
+        <div className="App-logo-Ironhack">
+          <img
+            className="App-logo"
+            src={process.env.PUBLIC_URL + "images/ironhack-logo.svg"}
+            alt="Ironhack Logo"
+          />
+        </div>
+        <div className="App-logo-Hamburguer">
+          <img
+            className="App-logo"
+            src={process.env.PUBLIC_URL + "images/menu-top.svg"}
+            alt="Menu hamburguer Logo"
+          />
+        </div>
       </div>
     );
   }
