@@ -1,0 +1,26 @@
+.card-container {
+  display: flex;
+  justify-content: left;
+}
+
+.card {
+  width: 20px;
+  height: 100px;
+  margin: 2px 5px 0 5px;
+}
+
+.card img {
+  width: 25px;
+  margin-bottom: -10px;
+}
+
+.card h5 {
+  font-size: 0.2em;
+  text-align: center;
+}
+
+.card p {
+  font-size: 0.1em;
+  margin-top: -3px;
+  text-align: center;
+}

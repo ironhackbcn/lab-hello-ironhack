@@ -1,0 +1,11 @@
+.Header h1 {
+  font-weight: 600;
+  font-family: Tahoma;
+  font-size: 1em;
+  margin-bottom: -5px;
+}
+
+.Header h4 {
+  font-size: 0.3em;
+  font-weight: 200;
+}

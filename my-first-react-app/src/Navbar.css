@@ -1,0 +1,14 @@
+.nav-left {
+  width: 10px;
+  height: 10px;
+}
+
+.nav-right {
+  width: 10px;
+  height: 10px;
+  float: right;
+}
+
+.nav{
+  max-width: 200px;
+}
