@@ -1,0 +1,7 @@
+.card{
+    width: 13%;
+    padding: 0 26px;
+}
+.card .text-container{
+    padding-left:25px
+}
