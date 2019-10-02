@@ -1,0 +1,14 @@
+.card-section {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.card-info p {
+  font-size: 1em;
+  color: gray;
+}
+
+.card-info h2 {
+  color: rgb(53, 48, 48);
+}
