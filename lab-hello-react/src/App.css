@@ -1,0 +1,27 @@
+ .articles {
+  background-color: white;
+  color: #282c34;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 50px;
+  align-items: center;
+}
+
+.card {
+  align-items: center;
+}
+
+.articles img {
+  width: 12vw;
+}
+
+.articles h3 {
+  font-size: 2em;
+  padding-left: 15px;
+}
+
+.articles p {
+  width: 60%;
+  padding-left: 15px;
+}
