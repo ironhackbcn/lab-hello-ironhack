@@ -1,0 +1,6 @@
+.App section {
+  display: flex;
+  justify-content: space-around;
+  padding: 120px 60px;
+}
+

@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 70px;
+  margin: 0;
+}
+
+h2 {
+  color:  rgb(23, 28, 36);
+  font-size: 22px; 
+}

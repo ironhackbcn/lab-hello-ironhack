@@ -1,0 +1,12 @@
+.Box {
+  width: 200px;
+}
+
+.Box p {
+  font-size: 14px;
+  color: grey;
+}
+
+.Box img {
+  margin-left: -20px;
+}
