@@ -1,0 +1,13 @@
+.Jumbotron h1 {
+  font-weight: 900;
+  font-size: 4em;
+  color: #ffffff;
+  margin-bottom: 0.4em;
+}
+.Jumbotron p {
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 1.4em;
+  line-height: 1.4em;
+  margin-top: 0em;
+}
