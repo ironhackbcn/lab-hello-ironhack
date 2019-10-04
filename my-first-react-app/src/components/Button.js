@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import "./css/button.css";
 
-const Button = () => {
+const Button = (props) => {
     return (
-      <button >
-       
-      </button>
+    <div className="button">
+        {props.text}
+      </div>
     );
   };
   

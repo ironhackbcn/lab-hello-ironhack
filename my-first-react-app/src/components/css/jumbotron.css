@@ -2,21 +2,25 @@
   background-color: rgb(5, 5, 41);
   color: white;
   padding: 15px 40px 60px 40px;
+  height: 500px;
+  
 }
 
 .mainContent {
-  width: 300px;
+  width: 700px;
   padding: 10px;
 }
 
 .mainText{
  color: white;
- font-weight: 30px;
-
-
+ font-size: 60px;
+ font-weight:900;
 }
 
-
 .secondaryText{
+    font-size: 28px
+}
 
+.buttonWrap{
+padding-bottom: 10px;
 }
