@@ -43,7 +43,7 @@ But don't worry, create-react-app will take care of it.
 ### Iteration 2 - React Creation
 
   ```
-  npx creacte-react-app my-first-react-app
+  npx create-react-app my-first-react-app
   cd to my-first-react-app
   npm start
   ```
