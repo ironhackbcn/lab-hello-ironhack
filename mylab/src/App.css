@@ -1,0 +1,76 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+p {
+  font-weight: lighter;
+  margin-top: 15px;
+}
+
+.Nav-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #282C34;
+  padding: 20px 60px;
+}
+
+.Header-container {
+  background-color: #282C34;
+  height: auto;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Header-content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 60px;
+  color: white;
+  justify-content: center;
+  width: 40%;
+}
+
+.Header-btn{
+  border: 0;
+  background-color: white;
+  color: #282C34;
+  padding: 15px 20px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.FootBlock-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 20%;
+  color: #282C34;
+  margin: 0 10px;
+}
+
+.FootBlock-container img {
+  margin-bottom: 20px;
+  margin-left: -22px;
+}
+
+
+.Footer-blocks{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 100px 0;
+}
