@@ -1,0 +1,67 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Navbar{
+  padding: 2% 5%;
+  background-color: #251f38;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header{
+  font-size: 2em;
+  padding: 2% 5%;
+  background-color: #251f38;
+  color: white;
+  display: flex;
+}
+
+.Header-text{
+  width: 40vw;
+}
+
+.Header-text h1{
+  margin-top: 0;
+  margin-bottom: 2vh;
+  width: 50vw;
+}
+
+.Header-text a{
+  display: inline-block;
+  margin-top: 5vh;
+  padding: 5%;
+  background-color: white;
+  color:#251f38;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 15vh;
+}
+
+.Header-image{
+  position: relative
+}
+
+.image1{
+  left: 10vw;
+  bottom: 15vh;
+}
+
+.image2{
+  height: 200px;
+  right: 50px;
+  top: 20vh;
+}
+
+.image3{
+  height: 200px;
+}
+
+.Article-wrapper{
+  padding: 2% 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
