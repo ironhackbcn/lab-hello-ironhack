@@ -1,0 +1,39 @@
+main {
+  background-color: #282c34;
+  color: #fff;
+  text-align: left;
+}
+
+.Main {
+  display: flex;
+  max-width: 90%;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.Main-left {
+  padding: 15% 10px 30px 10px;
+}
+
+.Main-left h1 {
+  font-size: 3rem;
+  padding-bottom: 30px;
+}
+
+.Main-left p {
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+
+.btn {
+  padding: 15px;
+  border: 0px solid;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.Main-right {
+  width: 500px;
+  background-image: url('/images/react-logo.svg');
+  background-repeat: space;
+}
