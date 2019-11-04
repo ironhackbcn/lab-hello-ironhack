@@ -1,0 +1,17 @@
+.Footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 200px;
+}
+
+.card img {
+  width: 100px;
+  height: auto
+}
