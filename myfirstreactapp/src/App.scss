@@ -1,0 +1,115 @@
+.main-header{
+    background: hsl(224, 26%, 17%);
+    position: relative; 
+    .background {
+        img{
+            position: absolute; 
+            &:nth-child(1){
+                right: -125px; 
+                bottom: 20px;   
+                transform: scale(.5)    
+            }
+            &:nth-child(2){
+                right: -125px; 
+                bottom: 180px;   
+                transform: scale(.5)    
+            }
+            &:nth-child(3){
+                right: -125px; 
+                bottom: 370px;   
+                transform: scale(.5)    
+            }
+            &:nth-child(4){
+                right: 325px;
+                bottom: -10px;
+                transform: scale(1);   
+            }
+            &:nth-child(5){
+                right: 135px;
+                bottom: 230px;
+                transform: scale(1);    
+            }
+            &:nth-child(6){
+                right: 445px;
+                bottom: 540px;
+                transform: scale(1);
+            }
+        }
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 25px 45px; 
+    }
+    section {
+        margin-top: 150px; 
+        padding: 0 45px 100px;
+        h1{
+            font-size: 6rem; 
+            color: white; 
+            max-width: 40%;
+            line-height: 5.5rem;
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
+
+        h3 {
+            color: white;
+            font-weight: 100; 
+            font-size: 1.5rem;
+            max-width: 20%; 
+            margin-block-start: 0;
+            margin-block-end: 0;
+            margin-bottom: 70px; 
+        }
+
+        a {
+            padding: 20px;
+            background: white;
+            color: #202636;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.4rem;
+            border-radius: 5px;
+            margin: 25px 0;
+        }
+    }
+
+  }
+
+
+  main {
+      margin: 150px 0; 
+      display: flex; 
+      
+      section {
+          display: flex;
+          padding: 0 150px;
+          align-items: flex-start;
+
+          article{
+              width: 100%; 
+              max-width: 25%; 
+
+            img{
+                margin-left: -25px;
+                margin-bottom: 10px; 
+            }
+
+            h5 {
+                font-size: 1.85rem;
+                margin-block-start: 0;
+                margin-block-end: 0;
+
+            }
+
+            p {
+                font-size: 1.3rem; 
+                color: gray; 
+                max-width: 60%; 
+
+            }
+          }
+
+      }
+  }
